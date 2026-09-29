@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Откройте http://localhost:5173. Vite перенаправляет запросы `/api` на Express по адресу http://localhost:3001.
+Откройте http://localhost:5173 — лендинг в лаймовой концепции. Демонстрационный личный кабинет находится по адресу http://localhost:5173/app. Vite перенаправляет запросы `/api` на Express по адресу http://localhost:3001.
 
 ## Сборка и запуск одним сервером
 

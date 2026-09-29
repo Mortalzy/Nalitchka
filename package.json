@@ -1,0 +1,13 @@
+{
+  "name": "nalitchka",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "check": "npm run build && npm run test -w server"
+  },
+  "devDependencies": {"concurrently": "^9.2.1"}
+}
